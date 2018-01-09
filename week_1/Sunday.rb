@@ -17,6 +17,7 @@ numbers = [1, 2, 4, 2]
 
 
 # you can replace do and end with curly brackets { }
-doubled_numbers = numbers.map { |number| 2 * number }   #=> [2, 4, 6, 8, 10]
+doubled_numbers = numbers.map! { |number| 2 * number }   #=> [2, 4, 6, 8, 10]
 
 p doubled_numbers
+
